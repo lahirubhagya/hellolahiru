@@ -15,8 +15,7 @@ RUN cp .env.example .env
 
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-scripts
 
-# Compile frontend assets
-RUN npm install && npm run production
+RUN npm install --legacy-peer-deps && npm run production
 
 RUN php artisan key:generate --force
 
