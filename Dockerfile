@@ -11,12 +11,11 @@ WORKDIR /var/www/html
 
 COPY . .
 
-# Setup .env before composer install
 RUN cp .env.example .env
 
-RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-scripts
 
-RUN php artisan key:generate
+RUN php artisan key:generate --force
 
 RUN sed -i 's|/var/www/html|/var/www/html/public|g' \
     /etc/apache2/sites-available/000-default.conf
