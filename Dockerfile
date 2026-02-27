@@ -26,7 +26,7 @@ RUN echo 'server { \n\
     index index.php; \n\
     location / { try_files $uri $uri/ /index.php?$query_string; } \n\
     location ~ \.php$ { \n\
-        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; \n\
+        fastcgi_pass 127.0.0.1:9000; \n\
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; \n\
         include fastcgi_params; \n\
     } \n\
