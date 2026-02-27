@@ -17,7 +17,17 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-
 
 RUN php artisan key:generate --force
 
+# Create all required storage directories
+RUN mkdir -p storage/framework/sessions \
+    storage/framework/views \
+    storage/framework/cache \
+    storage/logs \
+    bootstrap/cache
+
 RUN chown -R www-data:www-data /var/www/html/storage \
+    /var/www/html/bootstrap/cache
+
+RUN chmod -R 775 /var/www/html/storage \
     /var/www/html/bootstrap/cache
 
 RUN echo 'server { \n\
