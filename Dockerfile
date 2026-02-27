@@ -15,9 +15,10 @@ RUN cp .env.example .env
 
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-scripts
 
-# Force git to use HTTPS instead of SSH
 RUN git config --global url."https://github.com/".insteadOf git@github.com: \
     && git config --global url."https://".insteadOf ssh://git@
+
+RUN rm -rf node_modules
 
 RUN npm install --legacy-peer-deps && npm run production
 
@@ -45,3 +46,9 @@ RUN chmod +x /start.sh
 
 EXPOSE 80
 CMD ["/start.sh"]
+```
+
+Also **permanently fix** by adding to your `.gitignore`:
+```
+node_modules/
+vendor/
