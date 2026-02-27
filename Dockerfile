@@ -15,6 +15,10 @@ RUN cp .env.example .env
 
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-scripts
 
+# Force git to use HTTPS instead of SSH
+RUN git config --global url."https://github.com/".insteadOf git@github.com: \
+    && git config --global url."https://".insteadOf ssh://git@
+
 RUN npm install --legacy-peer-deps && npm run production
 
 RUN php artisan key:generate --force
