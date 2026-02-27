@@ -46,9 +46,3 @@ RUN chmod +x /start.sh
 
 EXPOSE 80
 CMD ["/start.sh"]
-```
-
-Also **permanently fix** by adding to your `.gitignore`:
-```
-node_modules/
-vendor/
