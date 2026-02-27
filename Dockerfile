@@ -1,12 +1,9 @@
-FROM php:7.4-apache
+FROM php:7.4-fpm
 
 RUN apt-get update && apt-get install -y \
-    git curl zip unzip libzip-dev \
+    git curl zip unzip libzip-dev nginx \
     libpng-dev libonig-dev libxml2-dev \
     && docker-php-ext-install pdo pdo_mysql mysqli mbstring zip gd
-
-# Fix Apache MPM conflict
-RUN a2dismod mpm_event mpm_worker && a2enmod mpm_prefork
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -20,11 +17,22 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --no-
 
 RUN php artisan key:generate --force
 
-RUN sed -i 's|/var/www/html|/var/www/html/public|g' \
-    /etc/apache2/sites-available/000-default.conf
-RUN a2enmod rewrite
-
 RUN chown -R www-data:www-data /var/www/html/storage \
     /var/www/html/bootstrap/cache
 
+# Nginx config
+RUN echo 'server { \
+    listen 80; \
+    root /var/www/html/public; \
+    index index.php; \
+    location / { try_files $uri $uri/ /index.php?$query_string; } \
+    location ~ \.php$ { fastcgi_pass 127.0.0.1:9000; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; } \
+}' > /etc/nginx/sites-available/default
+
+# Start script
+RUN echo '#!/bin/bash\nphp-fpm -D\nnginx -g "daemon off;"' > /start.sh \
+    && chmod +x /start.sh
+
 EXPOSE 80
+
+CMD ["/start.sh"]
