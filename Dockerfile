@@ -5,6 +5,9 @@ RUN apt-get update && apt-get install -y \
     libpng-dev libonig-dev libxml2-dev \
     && docker-php-ext-install pdo pdo_mysql mysqli mbstring zip gd
 
+# Fix Apache MPM conflict
+RUN a2dismod mpm_event mpm_worker && a2enmod mpm_prefork
+
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
