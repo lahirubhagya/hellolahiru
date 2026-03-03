@@ -39,7 +39,7 @@
                                 </li>
                                 <li>
                                     <a href="{{route('Landing')}}" class="custom_logo_menu_footer">
-                                        <img src="assets/images/logo/logo_large.webp" alt="Logo Large">
+                                        <img src="assets/images/logo/logo_full_dark.webp" alt="Logo Dark Full">
                                     </a>
                                 </li>
                             </ul>

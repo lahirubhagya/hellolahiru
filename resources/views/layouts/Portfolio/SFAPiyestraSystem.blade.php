@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
-        <title>Iam-lahiru | LECO Geo Mapping System</title>
+        <title>Iam-lahiru | Piyestra SFA System</title>
         <!--=============== css  ===============-->
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/reset.css') }}">
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/plugins.css') }}">
@@ -50,32 +50,32 @@
                                     <div class="swiper-wrapper">
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_1.webp"   alt="slider_screen_1">
-                                            <a href="assets/images/work_19/flash_screen_1.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_1.webp"   alt="slider_screen_1">
+                                            <a href="assets/images/work_20/flash_screen_1.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.01</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_2.webp"   alt="slider_screen_2">
-                                            <a href="assets/images/work_19/flash_screen_2.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_2.webp"   alt="slider_screen_2">
+                                            <a href="assets/images/work_20/flash_screen_2.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.02</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_3.webp"   alt="slider_screen_3">
-                                            <a href="assets/images/work_19/flash_screen_3.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_3.webp"   alt="slider_screen_3">
+                                            <a href="assets/images/work_20/flash_screen_3.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.03</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_4.webp"   alt="slider_screen_4">
-                                            <a href="assets/images/work_19/flash_screen_4.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_4.webp"   alt="slider_screen_4">
+                                            <a href="assets/images/work_20/flash_screen_4.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.04</span>
                                         </div>
                                         <!-- swiper-slide end-->
@@ -83,41 +83,49 @@
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_5.webp"   alt="slider_screen_5">
-                                            <a href="assets/images/work_19/flash_screen_5.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_5.webp"   alt="slider_screen_5">
+                                            <a href="assets/images/work_20/flash_screen_5.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.05</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_6.webp"   alt="slider_screen_6">
-                                            <a href="assets/images/work_19/flash_screen_6.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_6.webp"   alt="slider_screen_6">
+                                            <a href="assets/images/work_20/flash_screen_6.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.06</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_7.webp"   alt="slider_screen_7">
-                                            <a href="assets/images/work_19/flash_screen_7.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_7.webp"   alt="slider_screen_7">
+                                            <a href="assets/images/work_20/flash_screen_7.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.07</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_8.webp"   alt="slider_screen_8">
-                                            <a href="assets/images/work_19/flash_screen_8.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_8.webp"   alt="slider_screen_8">
+                                            <a href="assets/images/work_20/flash_screen_8.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.08</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
                                         <!-- swiper-slide-->
                                         <div class="swiper-slide  hov_zoom">
-                                            <img  src="assets/images/work_19/flash_screen_9.webp"   alt="slider_screen_9">
-                                            <a href="assets/images/work_19/flash_screen_9.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <img  src="assets/images/work_20/flash_screen_9.webp"   alt="slider_screen_9">
+                                            <a href="assets/images/work_20/flash_screen_9.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                             <span class="slide-numb">.09</span>
+                                        </div>
+                                        <!-- swiper-slide end-->
+
+                                        <!-- swiper-slide-->
+                                        <div class="swiper-slide  hov_zoom">
+                                            <img  src="assets/images/work_20/flash_screen_10.webp"   alt="slider_screen_10">
+                                            <a href="assets/images/work_20/flash_screen_10.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                            <span class="slide-numb">.10</span>
                                         </div>
                                         <!-- swiper-slide end-->
 
@@ -149,7 +157,7 @@
                                             </div>
                                             <div class="main-about2">
                                                 <h2 class="custom_sub_topic_option_1">
-                                                    <span style="color: #F68338"> Mapping The Grid :</span> Designing LECO's Digital Distribution Network
+                                                    <span style="color: #F68338"> Collections In Motion :</span> Designing the Piyestra SFA Field Force Platform
                                                 </h2>
                                             </div>
                                         </div>
@@ -157,7 +165,7 @@
                                             <div class="pr-bg pr-bg-white"></div>
                                             <div class="project-details fl-wrap">
                                                 <ul>
-                                                    <li class="custom_li_font"><span>Date :</span> 25.10.2025 </li>
+                                                    <li class="custom_li_font"><span>Date :</span> 05.01.2026 </li>
                                                     <li class="custom_li_font"><span>Category : </span>UI / UX Design</li>
                                                 </ul>
                                             </div>
@@ -189,9 +197,9 @@
                                                     </td>
                                                     <td>
                                                         <div class="dec-center">
-                                                            <a class="btn-2" href="https://www.figma.com/proto/OWtIksa3lOtrdK4ffvSbjx/LECO--
-                                                            -GEOBIZZ?node-id=309-3365&p=f&viewport=139%2C157%2C0.02&t=YwaStmoChw9RE7RJ-1&scal
-                                                            ing=contain&content-scaling=fixed&starting-point-node-id=309%3A3365&page-id=217%3A1210" target="_blank">
+                                                            <a class="btn-2" href="https://www.figma.com/proto/NR2fXZYNQqQxz4dEiIQFYg/PIYESTRA?node-
+                                                            id=1064-78063&viewport=3973%2C-10799%2C0.58&t=ymnhEFG3Q0jbs6tJ-1&scaling=contain&content
+                                                            -scaling=fixed&starting-point-node-id=1064%3A78063&page-id=1064%3A63659" target="_blank">
                                                                 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;&nbsp; VIEW
                                                             </a>
                                                         </div>
@@ -200,13 +208,28 @@
 
                                                 <tr>
                                                     <td>
-                                                        🎯 Field Staff <br>
+                                                        🎯 Sales Rep Mobile Application <br>
                                                     </td>
                                                     <td>
                                                         <div class="dec-center">
-                                                            <a class="btn-2" href="https://www.figma.com/proto/OWtIksa3lOtrdK4ffvSbjx/LECO--
-                                                            -GEOBIZZ?node-id=447-3631&p=f&viewport=429%2C279%2C0.07&t=FG35jtXsVYmkXdx5-1&scal
-                                                            ing=scale-down&content-scaling=fixed&starting-point-node-id=447%3A3631&page-id=445%3A2087" target="_blank">
+                                                            <a class="btn-2" href="https://www.figma.com/proto/NR2fXZYNQqQxz4dEiIQFYg/PIYESTRA?node-
+                                                            id=723-55190&viewport=-3584%2C-209%2C0.1&t=jJeVvznw1VCV2AFc-1&scaling=scale-down&content-
+                                                            scaling=fixed&starting-point-node-id=723%3A55190&page-id=723%3A47389&show-proto-sidebar=1" target="_blank">
+                                                                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;&nbsp; VIEW
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        🎯 Area Manager Mobile Application<br>
+                                                    </td>
+                                                    <td>
+                                                        <div class="dec-center">
+                                                            <a class="btn-2" href="https://www.figma.com/proto/NR2fXZYNQqQxz4dEiIQFYg/PIYESTRA?page-id=129%3
+                                                            A18083&node-id=129-27077&viewport=606%2C420%2C0.02&t=rxupzVtbr78RXDoC-1&scaling=scale-down&content
+                                                            -scaling=fixed&starting-point-node-id=129%3A27077&show-proto-sidebar=1" target="_blank">
                                                                 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;&nbsp; VIEW
                                                             </a>
                                                         </div>
@@ -225,29 +248,28 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1">
-                                                A Web & Mobile Enterprise GIS Solution for Electrical Distribution Asset Mapping,
-                                                Deviation Tracking, Field Verification & Decision-Ready Reporting.
+                                                A Web & Mobile Sales Force Automation Solution for Route Execution, Dealer Management,
+                                                Collections, Lead Tracking & Real-Time Field Operations Reporting.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                Lanka Electricity Company (Pvt) Ltd — LECO — is one of Sri Lanka's primary
-                                                electricity distribution companies, responsible for maintaining an extensive
-                                                grid of poles, transformers, conductors, and related infrastructure across
-                                                its service territory.
+                                                Piyestra SFA 2.0 is a next-generation Sales Force Automation solution designed to modernize
+                                                and enhance an existing SFA platform. It digitizes and streamlines field operations across route execution,
+                                                dealer management, payment collections, and activity tracking — giving sales organisations the visibility,
+                                                control, and efficiency they need to compete in fast-moving markets.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                The LECO GIS & SLD Management System is a web and mobile enterprise
-                                                solution designed to digitize and modernize the management of LECO's electrical
-                                                distribution network. It replaces fragmented manual and CAD-based workflows with a
-                                                single, unified digital platform — enabling spatial visualization, asset registration,
-                                                deviation tracking, and executive-level reporting.
+                                                The solution provides a centralized platform for managing users, dealers, products,
+                                                leads, routes, and collections. As a significant upgrade to the previous SFA system,
+                                                version 2.0 introduces improved workflows, enhanced usability, bulk data upload and
+                                                export capabilities, and more robust monitoring tools to support controlled and accountable field operations.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                The system integrates seamlessly with LECO's existing ERP infrastructure, ensuring
-                                                data consistency across operations and providing a centralized
-                                                repository for all network and asset data.
+                                                The system is implemented as a modular, scalable platform — combining a mobile applicatio
+                                                for sales executives with a web-based administrative and reporting portal for
+                                                area managers and senior management.
                                             </p>
 
                                             <div class="dec-list  custom_paragraph_option_1">
@@ -259,17 +281,17 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1">
-                                                The LECO GIS platform serves six distinct user groups across web and mobile. Each role has tailored
-                                                access, workflows, and responsibilities aligned with their position in the asset management lifecycle.
+                                                Piyestra SFA 2.0 serves six distinct user groups across web and mobile. Each role is granted precisely
+                                                scoped access and workflows aligned with their position in the sales and operations hierarchy.
                                             </p>
 
                                             <table class="data">
                                                 <thead class="custom_paragraph_option_1">
-                                                <tr>
-                                                    <th width="220px"><b>User Role</b></th>
-                                                    <th width="220px"><b>Platform</b></th>
-                                                    <th><b>Platform & Responsibilities</b></th>
-                                                </tr>
+                                                    <tr>
+                                                        <th width="220px"><b>User Role</b></th>
+                                                        <th width="220px"><b>Platform</b></th>
+                                                        <th><b>Platform & Responsibilities</b></th>
+                                                    </tr>
                                                 </thead>
 
                                                 <tbody class="custom_paragraph_option_1">
@@ -281,73 +303,73 @@
                                                             Web & Mobile Application
                                                         </td>
                                                         <td>
-                                                            Full system control across all platforms. Manages users, permissions,
-                                                            system configuration, and oversees all asset and reporting workflows.
+                                                            Full system control across all platforms. Manages users,
+                                                            permissions, configurations, and oversees all operational and reporting workflows.
                                                         </td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>
-                                                            🎯 Draftsman <br>
-                                                        </td>
-                                                        <td>
-                                                            Web Application
-                                                        </td>
-                                                        <td>
-                                                            Creates and manages SLD drawings, registers planned assets,
-                                                            and prepares geospatial data for review and approval.
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            🎯 Senior Draftsman
-                                                        </td>
-                                                        <td>
-                                                            Web Application
-                                                        </td>
-                                                        <td>
-                                                            Reviews and approves draftsman submissions. Oversees drawing quality,
-                                                            asset data accuracy, and escalation workflows.
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            🎯 Engineer
-                                                        </td>
-                                                        <td>
-                                                            Web Application
-                                                        </td>
-                                                        <td>
-                                                            Validates asset registrations, reviews deviation reports,
-                                                            and manages technical approvals for field-captured data.
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            🎯 Senior Engineer
-                                                        </td>
-                                                        <td>
-                                                            Web Application
-                                                        </td>
-                                                        <td>
-                                                            Provides final technical authorization on asset records, deviation
-                                                            findings, and network change management.
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            🎯 Field Staff
+                                                            🎯 Sales Rep Officer
                                                         </td>
                                                         <td>
                                                             Mobile Application
                                                         </td>
                                                         <td>
-                                                            Performs on-site asset verification and surveys. Captures
-                                                            real-world asset data, photographs, and deviation findings via the mobile app.
+                                                            Executes daily route plans, visits dealers, records collections,
+                                                            captures leads, and submits daily summaries via the mobile application.
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            🎯 Area Manager
+                                                        </td>
+                                                        <td>
+                                                            Web & Mobile Application
+                                                        </td>
+                                                        <td>
+                                                            Creates and assigns route plans, approves reversal requests,
+                                                            monitors sales executive activities via dashboard, and manages dealer and collection data.
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            🎯 Regional Manager
+                                                        </td>
+                                                        <td>
+                                                            Web Application
+                                                        </td>
+                                                        <td>
+                                                            Oversees area-level performance metrics, reviews regional dashboards,
+                                                            and manages escalations and approvals across multiple area teams.
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            🎯 Sales Manager
+                                                        </td>
+                                                        <td>
+                                                            Web Application
+                                                        </td>
+                                                        <td>
+                                                            Monitors overall sales force performance, reviews lead pipelines,
+                                                            tracks collection status, and accesses strategic reporting and analytics.
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            🎯 Accountant
+                                                        </td>
+                                                        <td>
+                                                            Web Application
+                                                        </td>
+                                                        <td>
+                                                            Manages and reconciles collection records, processes payment
+                                                            histories, handles reversal request approvals, and maintains financial accuracy.
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -362,49 +384,69 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                Five interconnected modules work together to provide end-to-end visibility and control over
-                                                LECO's electrical distribution infrastructure — from initial SLD drafting to field
-                                                verification and executive reporting.
+                                                Ten integrated modules work together to deliver end-to-end visibility and control over field sales operations —
+                                                from route planning and dealer visits through to collections, lead tracking, and executive reporting.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>1. GIS-Based Asset Visualization   (Web Application) :</b>
-                                                An interactive geospatial map interface displaying the full distribution network
-                                                including poles, transformers, conductors, and related infrastructure. Engineers and draftsmen
-                                                can zoom, filter, and inspect any asset with full attribute detail and historical records.
+                                                <b>1. Dashboard & Pending Approvals   (Web & Mobile Application) :</b>
+                                                Role and permission-based, record-level access control. Administrators manage user accounts,
+                                                assign roles, configure permissions, and maintain organisational hierarchy within the system.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>2. Asset Registration & Deviation Management  (Web & Mobile) :</b>
+                                                <b>2. User Management (Web Application) :</b>
 
-                                                Captures planned versus installed asset details side-by-side, automatically flagging
-                                                discrepancies between design drawings (SLD) and field-verified data. Deviation records are traceable
-                                                through a full approval workflow from field staff to senior engineers.
+                                                Field Officers use the mobile app to check in and out
+                                                of each outlet location. The system automatically records timestamps and GPS coordinates,
+                                                creating an auditable trail of every site visit.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>3. Field Staff Mobile Application  (Mobile Application) :</b>
+                                                <b>3. Dealer Management (Web Application) :</b>
 
-                                                A purpose-built mobile app for field teams conducting on-site asset surveys and verification.
-                                                Staff can capture GPS-tagged data, upload photographs, record asset conditions, and submit
-                                                deviation findings — all from the field without connectivity dependency.
+                                                Centralised management of dealer profiles enriched with geo-location data.
+                                                Supports accurate area mapping, territory assignment, and informed route planning by area managers.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>4. Reporting & Dashboards  (Web Application) :</b>
+                                                <b>4. Route Creation & Management   (Web & Mobile Application) :</b>
 
-                                                Role-specific dashboards provide upper management and engineers with at-a-glance KPIs,
-                                                deviation summaries, asset completion rates, and network health indicators. Detailed
-                                                reports can be generated and exported on demand.
+                                                End-to-end creation, assignment, and management of sales routes.
+                                                Enables sales executives and area managers to efficiently plan and
+                                                execute structured daily visit schedules.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>5. ERP System Integration (Web Application): </b>
+                                                <b>5. Collections Management  (Web & Mobile Application) </b>
 
-                                                Seamless, bi-directional data exchange with LECO's existing ERP system
-                                                ensures that asset records, procurement data, and operational statuses
-                                                remain consistent and current across the enterprise — eliminating duplication
-                                                and manual reconciliation.
+                                                Full tracking and management of payment collections including total amounts,
+                                                receivables, and cleared payments. Handles overdue, partial,
+                                                pending, and non-outstanding collection types.
+                                            </p>
+
+                                            <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
+                                                <b>6. Tracking Management (Web Application) </b>
+                                                Real-time monitoring of sales executive field movements using geo-fencing technology —
+                                                providing management with live visibility of team locations and adherence to planned routes.
+                                            </p>
+
+                                            <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
+                                                <b>7. Leads Management (Web & Mobile Application) </b>
+                                                Capture and track sales leads for follow-up and relationship management. Leads are managed
+                                                independently of order processing, enabling a clean pipeline without operational entanglement.
+                                            </p>
+
+                                            <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
+                                                <b>8. Product Management (Web Application) </b>
+                                                Maintenance of product master data for reference, operational validation, and alignment with
+                                                field activities — ensuring sales executives and managers work from a single source of truth.
+                                            </p>
+
+                                            <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
+                                                <b>9.  My Profile & Daily Summary   (Web & Mobile Application) </b>
+                                                Personal profile settings, daily summary report submission, and payment history management. Includes the
+                                                ability to submit reversal requests for collections directly from the mobile app.
                                             </p>
 
                                             <div class="dec-list custom_paragraph_option_1" style="margin-top: 0.3% !important;">
@@ -416,8 +458,8 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                Every visual and interaction decision was anchored in LECO's brand identity, the specialized nature
-                                                of GIS mapping interfaces, and the practical realities of both office-based and field-based usage environments.
+                                                Every design decision was grounded in usability research, the operational realities of field sales environments,
+                                                and the need to present complex data — routes, collections, dealer maps — in a clear and actionable way.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
@@ -425,17 +467,18 @@
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                <b>1. Primary Color</b> - Brand Yellow (#F5C400): Directly drawn from LECO's official brand identity.
-                                                Applied to interactive elements, CTAs, highlights, and navigation indicators for strong brand
-                                                recognition and visual consistency.<br>
+                                                <b>1. Primary Color</b> - Purple (#6B21A8): Purple was chosen as the
+                                                brand and interaction colour to differentiate the platform from
+                                                conventional green or blue SFA tools, conveying a sense of innovation,
+                                                authority, and modern professionalism.<br>
 
-                                                <b>2. Secondary Color</b> — Gray Scale: Gray and its variations create structured, neutral balance across
-                                                data-heavy screens — particularly important in GIS and map interfaces where visual clutter
-                                                must be minimised.<br>
+                                                <b>2. Secondary Color</b> — Gray Scale: Gray and its variations provide neutral
+                                                structure across data-dense screens — allowing collection
+                                                tables, route lists, and dealer maps to remain scannable without visual fatigue.<br>
 
-                                                <b>3. Default Theme</b> - Default light theme maximises contrast for map and SLD overlays, ensures
-                                                text legibility in both office and bright outdoor environments, and conveys the precision expected
-                                                of an engineering tool.<br>
+                                                <b>3. Default Theme</b> - Default light theme maximises information clarity,
+                                                reduces cognitive load on data-heavy views, and ensures
+                                                readability across mobile screens in varying indoor and outdoor conditions.<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
@@ -443,12 +486,10 @@
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                <b>1. Font Family:</b> Noto Sans - chosen for its clean, professional appearance and excellent readability across all devices.<br>
-                                                <b>2. Typography Rationale:</b> Noto Sans was selected for its engineering-appropriate clarity, exceptional rendering at small
-                                                sizes in data-dense GIS interfaces, robust multilingual character support (critical for a Sri Lankan utility),
-                                                and consistent legibility across mobile screens in varying outdoor lighting conditions.
+                                                Font Family: Poppins - Poppins was selected for its geometric clarity, excellent readability at
+                                                small sizes in data-dense views, and modern personality — making it equally at home in
+                                                mobile field UIs and web-based management dashboards.
                                             </p>
-
 
 
 
@@ -461,45 +502,45 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1">
-                                                GIS applications for utility infrastructure present unique UX challenges:
-                                                they must serve both highly technical users (engineers, draftsmen) and less technical
-                                                field staff simultaneously, across vastly different environments and devices.
+                                                SFA platforms present a demanding UX challenge: they must serve both highly mobile,
+                                                time-pressured field agents and data-focused managers analysing team performance —
+                                                often simultaneously, on very different devices and in very different environments.
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                1. <b>Map-Centred Interface :</b> The GIS map is the primary workspace — not a secondary feature.
-                                                All asset interactions are initiated from and anchored to the map canvas, ensuring spatial context is
-                                                always present for engineers and draftsmen.<br>
+                                                1. <b>Mobile-First for Sales Reps :</b> The mobile app was designed for fast, one-handed use
+                                                during dealer visits. Core actions — check-ins, collections, lead capture, daily summary
+                                                submission — are accessible within minimal taps, minimising time away from selling.<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                2. <b>Role-Based Access & Views :</b> Each of the six user roles sees a contextually tailored interface.
-                                                Field staff see simplified task flows; senior engineers see full approval queues and deviation analytics —
-                                                same system, radically different experiences.<br>
+                                                2. <b>Role-Based Interface Scoping :</b>Each of the six user roles sees a contextually tailored interface.
+                                                A Sales Rep sees their route and tasks; an Accountant sees collections and reversals; a Regional Manager
+                                                sees performance analytics — same platform, purposefully different experiences.<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                3. <b>White Theme for Mapping Accuracy :</b> A clean white base theme was mandated to ensure map overlays,
-                                                SLD diagrams, and geospatial data layers remain legible without visual interference from dark or
-                                                saturated backgrounds.<br>
+                                                3. <b>Data Clarity on Dense Screens :</b>Collections, dealer lists, and route tables involve significant data density.
+                                                The design uses clear visual hierarchy, alternating row shading, and status-colour coding (overdue, partial,
+                                                cleared) to make information scannable without overwhelming users.<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                4. <b>Mobile-First for Field Staff :</b> The mobile app was designed for glove-friendly, one-handed operation in
-                                                outdoor environments — large tap targets, high-contrast elements, and offline-capable data
-                                                capture flows to handle poor connectivity.<br>
+                                                4. <b>Geo-Fencing Visibility :</b> Tracking features are surfaced transparently to both managers
+                                                (for oversight) and agents (for self-awareness). The UX reinforces accountability
+                                                without creating an intrusive or adversarial experience for field staff..<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                5. <b>Deviation Visibility :</b> Discrepancies between planned and actual assets are surfaced immediately with clear
-                                                visual indicators (color-coded flags, counters). This makes compliance gaps impossible to
-                                                overlook, driving faster resolution.<br>
+                                                5. <b>Approval Workflows Made Frictionless :</b> Multi-step processes like reversal request approvals are broken into clear,
+                                                guided flows with contextual confirmation steps — reducing errors and
+                                                ensuring both agents and managers understand the status of every action.<br>
                                             </p>
 
                                             <p class="custom_paragraph_option_1" style="margin-top: 0.3% !important;">
-                                                6. <b>Progressive Approval Workflow :</b> Complex multi-step approval chains (field → draftsman → engineer →
-                                                senior engineer) are broken into clear, guided steps with contextual actions —
-                                                reducing errors and eliminating bottlenecks in the review process.<br>
+                                                6. <b>Consistency Across Platforms :</b> Poppins typography, the purple colour system, and component patterns
+                                                are applied identically across mobile and web — ensuring users who switch between platforms encounter a
+                                                familiar, coherent experience with no relearning required.<br>
                                             </p>
 
                                             <div class="dec-list  custom_paragraph_option_1" style="margin-top: 0.3% !important;">
@@ -511,24 +552,31 @@
                                             </div>
 
                                             <p class="custom_paragraph_option_1">
-                                                The LECO GIS & SLD Management System was successfully designed in full alignment with the client's
-                                                requirements and established UI/UX principles. By anchoring the design in LECO's brand identity —
-                                                yellow as the primary colour, a structured gray scale, and a clean white base theme — the interface
-                                                achieves strong brand consistency and the visual clarity essential for a mapping-centric platform.
-                                                Noto Sans was selected for its legibility across all screen sizes and its multilingual support, addressing
-                                                the practical needs of a Sri Lankan utility context.
+                                                Piyestra SFA 2.0 was successfully designed in full alignment with the client's requirements and established UI/UX principles.
+                                                The project required a thoughtful balance between the operational demands of mobile field agents — working
+                                                under time pressure across dealer networks — and the analytical needs of area managers, regional managers,
+                                                and senior leadership monitoring performance from web-based dashboards.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                The role-based access model, spanning six distinct user types across web and mobile,
-                                                ensured each user encounters an interface precisely scoped to their workflow — reducing
-                                                training overhead, minimising errors, and driving adoption at every level of the organisation.
+                                                By grounding the design in a purposeful purple identity, supported by a neutral gray scale and a clean white
+                                                base theme, the interface delivers strong brand differentiation alongside the clarity required for data-intensive
+                                                screens. Poppins, applied consistently across both platforms, ensures a cohesive and legible experience whether
+                                                users are navigating a route list in bright outdoor conditions or reviewing collection analytics on a desktop.
                                             </p>
 
                                             <p class="custom_paragraph_option_1">
-                                                Ultimately, this platform replaces fragmented, manual processes with a unified,
-                                                accurate, and accountable digital solution — improving service reliability, enabling
-                                                faster decision-making, and laying the foundation for a smarter, more resilient national grid.
+                                                The role-based access model — spanning six distinct user types across web and mobile —
+                                                was central to the UX strategy. Each user encounters an interface precisely scoped to their
+                                                responsibilities, reducing cognitive overhead, minimising input errors, and accelerating adoption
+                                                across the entire organisation.
+                                            </p>
+
+                                            <p class="custom_paragraph_option_1">
+                                                The modular architecture of SFA 2.0 ensures the platform can scale alongside business growth —
+                                                accommodating new regions, user roles, or feature modules without disrupting existing workflows.
+                                                The upgrade from the previous SFA system delivers measurable improvements in accountability, real-time
+                                                visibility, and operational efficiency across every level of the sales force.
                                             </p>
                                         </div>
                                     </div>

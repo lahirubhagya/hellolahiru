@@ -1,0 +1,727 @@
+@charset "utf-8";
+/*=========================================================
+  theme.css  v3  — Complete site theme overrides
+  Covers: body · content · appBar · sideNav · footer ·
+          preloader · hero sections · cards · all misc
+  Modes:  dark (default) | light | system
+=========================================================*/
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 1 — CSS VARIABLE TOKENS
+   Applied via [data-theme] on <html>
+═══════════════════════════════════════════════════════ */
+
+:root {
+    /* ── Dark (original / default) ── */
+    --c-bg:             #292929;
+    --c-bg2:            #212121;
+    --c-bg3:            #383838;
+    --c-bg4:            #313131;
+    --c-bg5:            #262627;
+    --c-surface:        #2D2D32;
+    --c-text:           #ffffff;
+    --c-text-sub:       rgba(255,255,255,0.71);
+    --c-text-dim:       rgba(255,255,255,0.41);
+    --c-text-muted:     #999999;
+    --c-border:         rgba(255,255,255,0.1);
+    --c-border-strong:  rgba(255,255,255,0.2);
+    --c-nav-btn:        #ffffff;
+    --c-overlay:        rgba(37,36,37,0.71);
+    --c-subfooter:      #292929;
+    --c-footer-inner:   #313131;
+    --c-footer-right:   #313131;
+    --c-input-bg:       rgba(255,255,255,0.11);
+    --c-input-text:     #ffffff;
+    --c-switcher-bg:    rgba(255,255,255,0.06);
+    --c-switcher-hover: rgba(255,255,255,0.12);
+    --c-dd-bg:          #2e2e2e;
+    --c-dd-shadow:      0 8px 32px rgba(0,0,0,0.6);
+    --c-opt-hover:      #3a3a3a;
+    --c-hero:           #292929;
+}
+
+[data-theme="light"] {
+    --c-bg:             #f4f4f4;
+    --c-bg2:            #ebebeb;
+    --c-bg3:            #e0e0e0;
+    --c-bg4:            #ffffff;
+    --c-bg5:            #f9f9f9;
+    --c-surface:        #ffffff;
+    --c-text:           #1a1a1a;
+    --c-text-sub:       rgba(0,0,0,0.75);
+    --c-text-dim:       rgba(0,0,0,0.45);
+    --c-text-muted:     #6b7280;
+    --c-border:         rgba(0,0,0,0.1);
+    --c-border-strong:  rgba(0,0,0,0.18);
+    --c-nav-btn:        #292929;
+    --c-overlay:        rgba(0,0,0,0.45);
+    --c-subfooter:      #e8e8e8;
+    --c-footer-inner:   #ffffff;
+    --c-footer-right:   #f4f4f4;
+    --c-input-bg:       rgba(0,0,0,0.06);
+    --c-input-text:     #1a1a1a;
+    --c-switcher-bg:    rgba(0,0,0,0.05);
+    --c-switcher-hover: rgba(0,0,0,0.10);
+    --c-dd-bg:          #ffffff;
+    --c-dd-shadow:      0 8px 32px rgba(0,0,0,0.15);
+    --c-opt-hover:      #f4f4f4;
+    --c-hero:           #f4f4f4;
+}
+
+[data-theme="dark"] {
+    --c-bg:             #292929;
+    --c-bg2:            #212121;
+    --c-bg3:            #383838;
+    --c-bg4:            #313131;
+    --c-bg5:            #262627;
+    --c-surface:        #2D2D32;
+    --c-text:           #ffffff;
+    --c-text-sub:       rgba(255,255,255,0.71);
+    --c-text-dim:       rgba(255,255,255,0.41);
+    --c-text-muted:     #999999;
+    --c-border:         rgba(255,255,255,0.1);
+    --c-border-strong:  rgba(255,255,255,0.2);
+    --c-nav-btn:        #ffffff;
+    --c-overlay:        rgba(37,36,37,0.71);
+    --c-subfooter:      #292929;
+    --c-footer-inner:   #313131;
+    --c-footer-right:   #313131;
+    --c-input-bg:       rgba(255,255,255,0.11);
+    --c-input-text:     #ffffff;
+    --c-switcher-bg:    rgba(255,255,255,0.06);
+    --c-switcher-hover: rgba(255,255,255,0.12);
+    --c-dd-bg:          #2e2e2e;
+    --c-dd-shadow:      0 8px 32px rgba(0,0,0,0.6);
+    --c-opt-hover:      #3a3a3a;
+    --c-hero:           #292929;
+}
+
+/* System = respect OS preference */
+@media (prefers-color-scheme: light) {
+    [data-theme="system"] {
+        --c-bg:             #f4f4f4;
+        --c-bg2:            #ebebeb;
+        --c-bg3:            #e0e0e0;
+        --c-bg4:            #ffffff;
+        --c-bg5:            #f9f9f9;
+        --c-surface:        #ffffff;
+        --c-text:           #1a1a1a;
+        --c-text-sub:       rgba(0,0,0,0.75);
+        --c-text-dim:       rgba(0,0,0,0.45);
+        --c-text-muted:     #6b7280;
+        --c-border:         rgba(0,0,0,0.1);
+        --c-border-strong:  rgba(0,0,0,0.18);
+        --c-nav-btn:        #292929;
+        --c-overlay:        rgba(0,0,0,0.45);
+        --c-subfooter:      #e8e8e8;
+        --c-footer-inner:   #ffffff;
+        --c-footer-right:   #f4f4f4;
+        --c-input-bg:       rgba(0,0,0,0.06);
+        --c-input-text:     #1a1a1a;
+        --c-switcher-bg:    rgba(0,0,0,0.05);
+        --c-switcher-hover: rgba(0,0,0,0.10);
+        --c-dd-bg:          #ffffff;
+        --c-dd-shadow:      0 8px 32px rgba(0,0,0,0.15);
+        --c-opt-hover:      #f4f4f4;
+        --c-hero:           #f4f4f4;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    [data-theme="system"] {
+        --c-bg:             #292929;
+        --c-bg2:            #212121;
+        --c-bg3:            #383838;
+        --c-bg4:            #313131;
+        --c-bg5:            #262627;
+        --c-surface:        #2D2D32;
+        --c-text:           #ffffff;
+        --c-text-sub:       rgba(255,255,255,0.71);
+        --c-text-dim:       rgba(255,255,255,0.41);
+        --c-text-muted:     #999999;
+        --c-border:         rgba(255,255,255,0.1);
+        --c-border-strong:  rgba(255,255,255,0.2);
+        --c-nav-btn:        #ffffff;
+        --c-overlay:        rgba(37,36,37,0.71);
+        --c-subfooter:      #292929;
+        --c-footer-inner:   #313131;
+        --c-footer-right:   #313131;
+        --c-input-bg:       rgba(255,255,255,0.11);
+        --c-input-text:     #ffffff;
+        --c-switcher-bg:    rgba(255,255,255,0.06);
+        --c-switcher-hover: rgba(255,255,255,0.12);
+        --c-dd-bg:          #2e2e2e;
+        --c-dd-shadow:      0 8px 32px rgba(0,0,0,0.6);
+        --c-opt-hover:      #3a3a3a;
+        --c-hero:           #292929;
+    }
+}
+
+/* Shared transition for smooth switching */
+html { transition: background 0.3s ease; }
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 2 — GLOBAL & BODY
+═══════════════════════════════════════════════════════ */
+
+body {
+    background: var(--c-bg) !important;
+    color: var(--c-text) !important;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Main page content wrapper — this is what shows as the white page */
+.content {
+    background: var(--c-bg) !important;
+    transition: background 0.3s ease;
+}
+
+/* Paragraph text */
+p {
+    color: var(--c-text-muted) !important;
+}
+
+/* General links */
+a {
+    color: var(--c-text-sub) !important;
+    transition: color 0.2s ease;
+}
+a:hover { color: #F68338 !important; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--c-text) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 3 — APP BAR (LEFT SIDEBAR HEADER)
+═══════════════════════════════════════════════════════ */
+
+.main-header {
+    background: var(--c-bg) !important;
+    transition: background 0.3s ease;
+}
+.main-header:before {
+    background: var(--c-border) !important;
+}
+
+/* Hamburger bars */
+.nav-button span,
+.nav-button .ncs,
+.nav-button span:before {
+    background: var(--c-nav-btn) !important;
+}
+.nav-button .menu-button-text {
+    color: var(--c-text-sub) !important;
+}
+
+/* Social icons */
+.header-social:before {
+    background: var(--c-border) !important;
+}
+.header-social li a {
+    color: var(--c-text-muted) !important;
+}
+.header-social li a:hover {
+    color: #F68338 !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 4 — PRELOADER
+═══════════════════════════════════════════════════════ */
+
+.loader-bg {
+    background: var(--c-bg) !important;
+    transition: background 0.3s ease;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 5 — SIDE NAVIGATION (nav-holder / sliding-menu)
+═══════════════════════════════════════════════════════ */
+
+.nav-holder {
+    background: var(--c-bg2) !important;
+    transition: background 0.3s ease;
+}
+.nav-container {
+    background: var(--c-bg2) !important;
+}
+.nav-holder-line {
+    background: var(--c-border) !important;
+}
+.nav-overlay {
+    background: var(--c-overlay) !important;
+}
+
+/* Nav links */
+.sliding-menu a {
+    color: var(--c-text-dim) !important;
+}
+.sliding-menu a:hover,
+.sliding-menu a.act-link {
+    color: var(--c-text) !important;
+}
+.sliding-menu li a:after {
+    background: var(--c-border) !important;
+}
+.sliding-menu a i {
+    color: var(--c-text-muted) !important;
+}
+
+/* Share section inside nav */
+.share-title {
+    color: var(--c-text-muted) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 6 — FOOTER
+═══════════════════════════════════════════════════════ */
+
+.main-footer {
+    background: var(--c-bg5) !important;
+    transition: background 0.3s ease;
+}
+/* The two ::before / ::after pseudo backgrounds on footer */
+.main-footer:before {
+    background: var(--c-footer-right) !important;
+}
+.main-footer:after {
+    background: var(--c-subfooter) !important;
+}
+
+/* Footer inner panel */
+.footer-inner {
+    background: var(--c-footer-inner) !important;
+    transition: background 0.3s ease;
+}
+.footer-inner:before {
+    background: var(--c-border) !important;
+}
+
+/* Footer title */
+.footer-title {
+    color: var(--c-text) !important;
+    border-color: var(--c-border) !important;
+}
+
+/* Paragraph in footer */
+.footer-box-item p {
+    color: var(--c-text-sub) !important;
+}
+
+/* Footer contacts */
+.footer-contacts li a {
+    color: var(--c-text) !important;
+}
+.footer-contacts li span {
+    color: var(--c-text-muted) !important;
+}
+.footer-contacts li:hover span {
+    color: var(--c-text) !important;
+}
+
+/* Sub-footer strip */
+.subfooter {
+    background: var(--c-subfooter) !important;
+    transition: background 0.3s ease;
+}
+.subfooter:before {
+    background: var(--c-border-strong) !important;
+}
+
+/* Copyright text */
+.policy-box,
+.policy-box span {
+    color: var(--c-text-dim) !important;
+}
+
+/* "To Top" button */
+.to-top-btn:before {
+    background: var(--c-bg3) !important;
+}
+
+/* Subscribe form inputs */
+.subcribe-form input.enteremail {
+    background: var(--c-input-bg) !important;
+    color: var(--c-input-text) !important;
+}
+.subcribe-form input.enteremail::-webkit-input-placeholder {
+    color: var(--c-text-sub) !important;
+}
+.subcribe-form .subscribe-button:hover {
+    background: var(--c-bg) !important;
+}
+.subscribe-message {
+    color: var(--c-text) !important;
+}
+
+/* Language switcher in footer */
+.blog-btn {
+    color: var(--c-text-sub) !important;
+}
+.blog-btn-filter ul {
+    background: var(--c-dd-bg) !important;
+    box-shadow: var(--c-dd-shadow) !important;
+    border: 1px solid var(--c-border) !important;
+}
+.blog-btn-filter ul li a {
+    color: var(--c-text-sub) !important;
+}
+.blog-btn-filter ul li a:hover {
+    color: #F68338 !important;
+    background: var(--c-opt-hover) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 7 — HERO / SECTION BACKGROUNDS
+═══════════════════════════════════════════════════════ */
+
+.hero-wrap,
+.fs-slider-wrap {
+    background: var(--c-hero) !important;
+}
+.hero-border,
+.hb-top {
+    background: var(--c-bg) !important;
+}
+.hero-dec {
+    background: var(--c-bg3) !important;
+}
+
+/* Dark bg sections scattered through pages */
+.dark-bg,
+.dark-content,
+.fcw-dec {
+    background: var(--c-bg) !important;
+}
+.dark-bg:before {
+    background: var(--c-bg3) !important;
+}
+
+/* Page load animation backgrounds */
+.page-load_bg,
+.page-load_bg2 {
+    background: var(--c-bg2) !important;
+}
+
+/* PR backgrounds */
+.pr-bg,
+.pr-bg2 {
+    background: var(--c-bg2) !important;
+}
+
+/* Surface / card backgrounds */
+.surface-bg {
+    background: var(--c-surface) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 8 — PORTFOLIO / GRID ITEMS
+═══════════════════════════════════════════════════════ */
+
+.grid-item-holder {
+    background: var(--c-bg2) !important;
+}
+.grid-det {
+    background: var(--c-bg2) !important;
+}
+.grid-det_category a,
+.grid-det_link {
+    color: var(--c-text-sub) !important;
+}
+.filter-panel {
+    background: var(--c-bg) !important;
+}
+.filter-panel a,
+.gallery-filters a {
+    color: var(--c-text-sub) !important;
+}
+.gallery-filters a.gallery-filter-active,
+.filter-panel a:hover {
+    color: #F68338 !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 9 — RESUME / SKILLS / BOXES
+═══════════════════════════════════════════════════════ */
+
+.resum-header {
+    background: var(--c-bg2) !important;
+}
+.custom-skillbar {
+    background: #F68338 !important; /* accent stays */
+}
+.skillbar {
+    background: var(--c-bg3) !important;
+}
+
+/* Info boxes / cards */
+.box-item,
+.services-item {
+    background: var(--c-surface) !important;
+}
+
+/* Inline fact boxes */
+.inline-facts-wrap {
+    background: var(--c-bg2) !important;
+}
+
+/* Timeline / process items */
+.process-wrap li {
+    background: var(--c-bg3) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 10 — BUTTONS
+═══════════════════════════════════════════════════════ */
+
+.btn {
+    background: var(--c-bg2) !important;
+    color: var(--c-text) !important;
+}
+.btn:after {
+    background: var(--c-bg2) !important;
+}
+.btn:before {
+    background: var(--c-text) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 11 — TESTIMONIALS / BLOG / TEAM
+═══════════════════════════════════════════════════════ */
+
+.testi-item {
+    background: var(--c-surface) !important;
+}
+.blog-item {
+    background: var(--c-surface) !important;
+}
+.post-header span,
+.post-opt li {
+    color: var(--c-text-muted) !important;
+}
+.team-box {
+    background: var(--c-surface) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 12 — CONTACTS / MAP
+═══════════════════════════════════════════════════════ */
+
+.contacts-wrap li h4 {
+    color: #F68338 !important;
+}
+.map-container:before {
+    background: #F68338 !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 13 — SCROLL NAV / FIXED PANELS
+═══════════════════════════════════════════════════════ */
+
+.page-scroll-nav {
+    background: var(--c-bg) !important;
+}
+.page-scroll-nav:after {
+    background: #F68338 !important;
+}
+.fixed-column-tilte {
+    background: var(--c-bg2) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 14 — ACCORDION / TABS
+═══════════════════════════════════════════════════════ */
+
+.accordion a.toggle {
+    background: var(--c-surface) !important;
+    color: var(--c-text) !important;
+}
+.accordion-inner {
+    background: var(--c-bg2) !important;
+    color: var(--c-text-sub) !important;
+}
+
+[data-theme="dark"] .dec-list{
+    background: var(--c-surface) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 15 — THEME SWITCHER WIDGET
+   Position: absolute, inside .main-header
+   bottom: 155px = between social icons and folio-btn
+═══════════════════════════════════════════════════════ */
+
+.theme-switcher {
+    position: absolute;
+    bottom: 155px;
+    left: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 0;
+    cursor: pointer;
+    z-index: 30;
+    background: var(--c-switcher-bg);
+    border-top: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-border);
+    transition: background 0.2s ease;
+    user-select: none;
+}
+.theme-switcher:hover {
+    background: var(--c-switcher-hover);
+}
+
+/* Icon wrapper */
+.theme-icon-wrap {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-text-muted);
+    transition: color 0.2s ease;
+}
+.theme-switcher:hover .theme-icon-wrap {
+    color: #F68338;
+}
+
+/* All icons hidden by default — shown via [data-theme] below */
+.theme-icon {
+    width: 17px;
+    height: 17px;
+    display: none;
+    stroke: currentColor;
+    fill: none;
+    flex-shrink: 0;
+}
+[data-theme="light"]  .theme-icon--light  { display: block; }
+[data-theme="dark"]   .theme-icon--dark   { display: block; }
+[data-theme="system"] .theme-icon--system { display: block; }
+/* No attr = dark default */
+:root:not([data-theme]) .theme-icon--dark { display: block; }
+
+/* "Theme" label */
+.theme-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--c-text-muted);
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+.theme-switcher:hover .theme-label {
+    color: #F68338;
+}
+
+/* Dropdown panel — opens to the RIGHT */
+.theme-dropdown {
+    position: absolute;
+    left: 88px;
+    bottom: 0;
+    width: 140px;
+    background: var(--c-dd-bg);
+    box-shadow: var(--c-dd-shadow);
+    border: 1px solid var(--c-border);
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 200;
+}
+.theme-switcher.open .theme-dropdown {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(0);
+}
+
+/* Option buttons */
+.theme-option {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--c-border);
+    cursor: pointer;
+    color: var(--c-text-sub);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    transition: background 0.15s ease, color 0.15s ease;
+    text-align: left;
+}
+.theme-option:last-child { border-bottom: none; }
+.theme-option svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+    stroke: currentColor;
+    fill: none;
+}
+.theme-option:hover {
+    background: var(--c-opt-hover) !important;
+    color: #F68338 !important;
+}
+.theme-option.active {
+    color: #F68338 !important;
+}
+.theme-option.active::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #F68338;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SECTION 16 — THEME-AWARE LOGO SWITCHING
+   Uses two <img> tags with .logo-theme--dark / --light
+   CSS shows/hides based on [data-theme] on <html>
+═══════════════════════════════════════════════════════ */
+
+/* Both logo variants are rendered in DOM; only correct one is visible */
+.logo-theme {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Dark theme → show dark logo (white text/icon) */
+[data-theme="dark"]   .logo-theme--dark,
+:root:not([data-theme]) .logo-theme--dark {
+    display: block;
+}
+
+/* Light theme → show light logo (dark text/icon) */
+[data-theme="light"]  .logo-theme--light {
+    display: block;
+}
+
+/* System: let OS decide */
+@media (prefers-color-scheme: dark) {
+    [data-theme="system"] .logo-theme--dark  { display: block; }
+    [data-theme="system"] .logo-theme--light { display: none;  }
+}
+@media (prefers-color-scheme: light) {
+    [data-theme="system"] .logo-theme--dark  { display: none;  }
+    [data-theme="system"] .logo-theme--light { display: block; }
+}
+
+/* Preloader logo also theme-aware */
+.custom_loader .logo-theme {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}

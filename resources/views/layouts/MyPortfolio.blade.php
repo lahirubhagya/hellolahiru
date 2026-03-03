@@ -11,6 +11,7 @@
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/plugins.css') }}">
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/style.css') }}">
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/color.css') }}">
+{{--        <link type="text/css" rel="stylesheet" href="{{asset('assets/css/theme.css') }}">--}}
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="{{asset('assets/assets/assets/assets/images/favicon.ico') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -419,6 +420,26 @@
                                 <div class="pr-bg"></div>
                             </div>
                             <!-- gallery-item end-->
+
+
+                            <!-- gallery-item-->
+                            <div class="gallery-item UI-UX branding">
+                                <div class="grid-item-holder hov_zoom">
+                                    <img  src="assets/images/work_20/Piyestra.webp" alt="Piyestra SFA System">
+                                    <div class="grid-det">
+                                        <div class="grid-det_category">
+                                            <a href="#">UI / UX Design</a>
+                                        </div>
+                                        <div class="grid-det-item">
+                                            <a href="{{route('SFAPiyestraSystem')}}" class="grid-det_link">
+                                                Piyestra SFA System
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pr-bg"></div>
+                            </div>
+                            <!-- gallery-item end-->
                         </div>
                         <!-- portfolio end -->
                     </div>
@@ -448,6 +469,8 @@
 
         <!-- Vendor scripts start ------------------------------>
         <script src="{{asset('assets/js/jquery.min.js')}}"></script>
+{{--        <!-- Theme Switcher -->--}}
+{{--        <script src="{{asset('assets/js/theme-switcher.js')}}"></script>--}}
         <script src="{{asset('assets/js/plugins.js')}}"></script>
         <script src="{{asset('assets/js/scripts.js')}}"></script>
     </body>

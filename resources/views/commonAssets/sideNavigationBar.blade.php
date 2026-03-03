@@ -1,7 +1,7 @@
 <div class="nav-holder but-hol">
     <div class="nav-scroll-bar-wrap fl-wrap">
         <a href="{{route('Landing')}}" class="ajax logo_menu">
-            <img src="assets/images/logo/logo_large.webp" alt="Logo Small">
+            <img src="assets/images/logo/logo_full_dark.webp" alt="Logo Dark Full">
         </a>
         <div class="nav-container fl-wrap">
             <!-- nav -->

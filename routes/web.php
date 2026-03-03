@@ -45,7 +45,7 @@ Route::get('/MetDepartmentWeb', function () {return view('layouts/Portfolio/MetD
 Route::get('/HitechSoldierWeb', function () {return view('layouts/Portfolio/HitechSoldierWeb');})->name('HitechSoldierWeb');
 Route::get('/CargillsWeb', function () {return view('layouts/Portfolio/CargillsWeb');})->name('CargillsWeb');
 Route::get('/LECOGeoMappingSystem', function () {return view('layouts/Portfolio/LECOGeoMappingSystem');})->name('LECOGeoMappingSystem');
-Route::get('/CSIAPWeb', function () {return view('layouts/Portfolio/CSIAPWeb');})->name('CSIAPWeb');
+Route::get('/SFAPiyestraSystem', function () {return view('layouts/Portfolio/SFAPiyestraSystem');})->name('SFAPiyestraSystem');
 //------------------------**************************************--------------------------------------------------------
 //-----------------END------------------------All routes with portfolio pages-------------------------------------------
 

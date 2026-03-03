@@ -1,7 +1,7 @@
 <!-- appBar section start ========================================================================================== -->
 <header class="main-header">
     <a href="{{route('Landing')}}" class="logo-holder">
-        <img src="assets/images/logo/logo_small.webp" alt="Logo Small">
+        <img src="assets/images/logo/logo_initial_dark.webp" alt="Logo dark">
     </a>
 
     <!-- nav-button-wrap-->

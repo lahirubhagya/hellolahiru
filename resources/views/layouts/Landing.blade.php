@@ -417,7 +417,7 @@
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-4 col-lg-4">
-                                                            <img class="custom_image_use_in_skills" src="assets/images/logo/logo_small.webp" alt="Logo Small">
+                                                            <img class="custom_image_use_in_skills" src="assets/images/logo/logo_initial_dark.webp" alt="Logo Dark Initial">
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-4 col-lg-4">

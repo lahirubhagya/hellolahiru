@@ -11,6 +11,7 @@
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/plugins.css') }}">
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/style.css') }}">
         <link type="text/css" rel="stylesheet" href="{{asset('assets/css/color.css') }}">
+{{--        <link type="text/css" rel="stylesheet" href="{{asset('assets/css/theme.css') }}">--}}
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="{{asset('assets/assets/assets/images/favicon.ico') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -272,6 +273,8 @@
         <!-- app js -->
         <script src="{{asset('/js/app.js')}}"></script>
         <!-- jQuery -->
+{{--        <!-- Theme Switcher -->--}}
+        <script src="{{asset('assets/js/theme-switcher.js')}}"></script>
         <!--app js related to background animation -->
         <script src="{{asset('assets/js/jquery-2.2.4.min.js')}}"></script>
         <!-- main jquery js -->

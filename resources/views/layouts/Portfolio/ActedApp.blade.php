@@ -123,7 +123,7 @@
                                             <div class="pr-bg pr-bg-white"></div>
                                             <div class="project-details fl-wrap">
                                                 <ul>
-                                                    <li class="custom_li_font"><span>Date :</span> 12.02.2023 </li>
+                                                    <li class="custom_li_font"><span>Date :</span> 23.12.2023 </li>
                                                     <li class="custom_li_font"><span>Category : </span>UI / UX Design</li>
                                                 </ul>
 
