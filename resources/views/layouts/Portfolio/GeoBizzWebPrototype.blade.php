@@ -50,7 +50,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_1.webp"   alt="slider_screen_1">
-                                        <a href="assets/images/work_8/flash_screen_1.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_1.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.01</span>
                                     </div>
                                     <!-- swiper-slide end-->
@@ -58,7 +58,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide  hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_2.webp"   alt="slider_screen_2">
-                                        <a href="assets/images/work_8/flash_screen_2.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_2.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.02</span>
                                     </div>
                                     <!-- swiper-slide end-->
@@ -66,7 +66,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide  hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_3.webp"   alt="slider_screen_3">
-                                        <a href="assets/images/work_8/flash_screen_3.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_3.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.03</span>
                                     </div>
                                     <!-- swiper-slide end-->
@@ -74,7 +74,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide  hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_4.webp"   alt="slider_screen_4">
-                                        <a href="assets/images/work_8/flash_screen_4.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_4.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.04</span>
                                     </div>
                                     <!-- swiper-slide end-->
@@ -83,7 +83,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide  hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_5.webp"   alt="slider_screen_5">
-                                        <a href="assets/images/work_8/flash_screen_5.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_5.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.05</span>
                                     </div>
                                     <!-- swiper-slide end-->
@@ -91,7 +91,7 @@
                                     <!-- swiper-slide-->
                                     <div class="swiper-slide  hov_zoom">
                                         <img  src="assets/images/work_8/flash_screen_6.webp"   alt="slider_screen_6">
-                                        <a href="assets/images/work_8/flash_screen_6.webp" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <a href="assets/images/work_8/flash_screen_6.webp" class="box-media-zoom   popup-image"><i class="fal fa-expand-arrows"></i></a>
                                         <span class="slide-numb">.06</span>
                                     </div>
                                     <!-- swiper-slide end-->

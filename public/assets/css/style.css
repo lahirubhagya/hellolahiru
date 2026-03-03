@@ -5595,6 +5595,161 @@ font[style*=background-color]{
     font-family:inherit!important
 }
 
+
+@charset "utf-8";
+/*=========================================================
+  font-size.css
+  Font Size Control Widget — 80px fixed left sidebar
+  Position : bottom: 155px
+  Buttons  : A−  ·  A (reset)  ·  A+
+  Zoom     : 0.85 – 1.0 (default) – 1.30  via JS body.zoom
+=========================================================*/
+
+/* ══ Outer container ══ */
+.font-size-ctrl {
+    position: absolute;
+    bottom: 155px;
+    left: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 0 8px;
+    z-index: 30;
+    background: #383838;
+    border-top:    1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+    user-select: none;
+    cursor: default;
+    transition: background 0.2s ease;
+    /* Exclude widget itself from zoom — always readable */
+    zoom: 1 !important;
+    transform: none !important;
+}
+.font-size-ctrl:hover {
+    background: #424242;
+}
+
+/* ══ Three-button row ══ */
+.fsc-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    width: 100%;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+/* ══ Individual button ══ */
+.fsc-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1;
+    font-family: 'Mukta', sans-serif;
+    transition: color 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+}
+.fsc-btn:hover:not(:disabled) {
+    color: #F68338;
+    background: rgba(255,255,255,0.08);
+}
+.fsc-btn:active:not(:disabled) {
+    background: rgba(246,131,56,0.18);
+    color: #F68338;
+}
+.fsc-btn:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* ══ Letter glyphs ══ */
+.fsc-a {
+    font-weight: 700;
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+    display: block;
+}
+.fsc-a--sm { font-size: 9px;  }   /* A− small  */
+.fsc-a--md { font-size: 13px; }   /* A  medium */
+.fsc-a--lg { font-size: 16px; }   /* A+ large  */
+
+/* ══ +/− signs ══ */
+.fsc-sign {
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+/* ══ Dividers between buttons ══ */
+.fsc-divider {
+    width: 1px;
+    height: 14px;
+    background: rgba(255,255,255,0.12);
+    flex-shrink: 0;
+}
+
+/* ══ "Font" label ══ */
+.fsc-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.30);
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+.font-size-ctrl:hover .fsc-label {
+    color: #F68338;
+}
+
+/* ══ Reset button: orange dot indicator when scale ≠ default ══ */
+.fsc-reset--active .fsc-a--md {
+    color: #F68338;
+}
+.fsc-reset--active::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #F68338;
+    margin: 2px auto 0;
+}
+
+/* ══ Mobile: horizontal strip inside 70px top bar ══ */
+@media only screen and (max-width: 1064px) {
+    .font-size-ctrl {
+        position: absolute;
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        left: 175px;
+        width: auto;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 10px;
+        gap: 6px;
+        border-top: none;
+        border-bottom: none;
+        border-left:  1px solid rgba(255,255,255,0.10);
+        border-right: 1px solid rgba(255,255,255,0.10);
+        background: transparent;
+        zoom: 1 !important;
+    }
+    .font-size-ctrl:hover { background: transparent; }
+    .fsc-label  { display: none; }
+    .fsc-buttons { padding: 0; gap: 4px; }
+    .fsc-divider { height: 12px; }
+}
 /*-----------------------------------------------------------------
     END
 -----------------------------------------------------------------*/

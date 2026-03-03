@@ -488,7 +488,7 @@
                                             <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/css.webp" alt="CSS"></div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-3">
-                                            <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/scss.webp" alt="SCSS"></div>
+                                            <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/Scss.webp" alt="SCSS"></div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-3">
                                             <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/boostrap.webp" alt="Boostrap"></div>
@@ -518,7 +518,7 @@
                                             <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/mysql.webp" alt="MySql"></div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-3">
-                                            <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/pgsql.webp" alt="Pgsql"></div>
+                                            <div class="custom_card_box_tools"><img class="custom_client_list"  src="assets/images/tools/pgSql.webp" alt="Pgsql"></div>
                                         </div>
                                     </div>
 
