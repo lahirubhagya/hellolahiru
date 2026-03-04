@@ -38,6 +38,17 @@
 
                 <!--content -->
                 <div class="content">
+                    <div class="fixed-top-panel fl-wrap">
+                        <div class="sp-fix-header fl-wrap">
+                            <div class="scroll-down-wrap">
+                                <div class="mousey">
+                                    <div class="scroller"></div>
+                                </div>
+                                <span>Scroll down  to discover</span>
+                            </div>
+                            <a href="{{route('MyPortfolio')}}" class="back-to-home-btn"><span>Back to Portfolio</span></a>
+                        </div>
+                    </div>
                     <!-- fw-carousel-wrap -->
                     <div class="fw-carousel-wrap show-case-slider-wrap   fl-wrap">
                         <!-- fw-carousel  -->

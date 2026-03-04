@@ -4972,7 +4972,10 @@ nav.nav-inner , .contacts-wrap li {
 }
 @media only screen and (max-width: 560px) {
 .sec-number  , .header-social  , .back-to-home-btn , .search-btn span {
-	display:none;
+	display:flex;
+}
+.scroll-down-wrap{
+    display: none;
 }
 .search-btn {
 	margin-right:15px;

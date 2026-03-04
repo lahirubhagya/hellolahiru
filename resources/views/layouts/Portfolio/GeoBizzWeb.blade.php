@@ -40,11 +40,18 @@
                 <!-- nav-holder end --------------------------------------------->
 
                 <!-- hero-slider-wrap -->
-
-
-                <!--content -->
                 <div class="content">
-
+                    <div class="fixed-top-panel fl-wrap">
+                        <div class="sp-fix-header fl-wrap">
+                            <div class="scroll-down-wrap">
+                                <div class="mousey">
+                                    <div class="scroller"></div>
+                                </div>
+                                <span>Scroll down  to discover</span>
+                            </div>
+                            <a href="{{route('MyPortfolio')}}" class="back-to-home-btn"><span>Back to Portfolio</span></a>
+                        </div>
+                    </div>
                     <!-- fw-carousel-wrap -->
                     <div class="fw-carousel-wrap show-case-slider-wrap   fl-wrap">
                         <!-- fw-carousel  -->
@@ -146,25 +153,25 @@
                                 </div><br>
 
 
-                                <section class="video-text-section">
-                                    <div class="videoBoxSet">
-                                        <video autoplay controls muted loop>
-                                            <source src="assets/images/work_10/GeoBizz-Video.webm" type="video/webm" aria-label="Insurance Sector Video"/>
-                                        </video>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="video-promo-text fl-wrap mar-top">
-                                            <h3>Video Presentation</h3>
-                                            <p class="custom_paragraph_option_1">
-                                                This video presentation highlights the interactive functionality
-                                                of the GeoBizz frontend user interface. The UI was thoughtfully
-                                                developed to align seamlessly with the official Figma design for
-                                                GeoBizz. Every color, font, and image was meticulously applied to
-                                                reflect the design vision with precision.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </section>
+{{--                                <section class="video-text-section">--}}
+{{--                                    <div class="videoBoxSet">--}}
+{{--                                        <video autoplay controls muted loop>--}}
+{{--                                            <source src="assets/images/work_10/GeoBizz-Video.webm" type="video/webm" aria-label="Insurance Sector Video"/>--}}
+{{--                                        </video>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="text-box">--}}
+{{--                                        <div class="video-promo-text fl-wrap mar-top">--}}
+{{--                                            <h3>Video Presentation</h3>--}}
+{{--                                            <p class="custom_paragraph_option_1">--}}
+{{--                                                This video presentation highlights the interactive functionality--}}
+{{--                                                of the GeoBizz frontend user interface. The UI was thoughtfully--}}
+{{--                                                developed to align seamlessly with the official Figma design for--}}
+{{--                                                GeoBizz. Every color, font, and image was meticulously applied to--}}
+{{--                                                reflect the design vision with precision.--}}
+{{--                                            </p>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </section>--}}
 
                                 <div class="row">
                                     <div class="col-md-12 sin-anim">

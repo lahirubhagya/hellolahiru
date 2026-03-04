@@ -24,7 +24,7 @@
                     <td bgcolor="#111111" style="padding: 36px 40px 28px 40px; text-align: center;">
                         <a href="https://hellolahiru.up.railway.app" style="display: inline-block;">
                             <img src="https://hellolahiru.up.railway.app/assets/images/logo/logo_full_dark.png"
-                                 alt="hellolahiru" width="140" style="display: block; margin: 0 auto;" />
+                                 alt="hellolahiru" width="240" style="display: block; margin: 0 auto;" />
                         </a>
                     </td>
                 </tr>

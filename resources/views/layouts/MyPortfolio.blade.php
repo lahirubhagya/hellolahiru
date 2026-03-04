@@ -54,6 +54,7 @@
                                 <div class="num-album"></div>
                                 <div class="all-album"></div>
                             </div>
+{{--                            <a href="{{route('Landing')}}" class="back-to-home-btn" style="margin-top: -10px"><span>Back to home</span></a>--}}
                         </div>
                         <!-- fixed-top-panel end -->
 
