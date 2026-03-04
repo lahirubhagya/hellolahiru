@@ -1,123 +1,170 @@
-<strong>Message: </strong>{{ $data->user_query }} <br><br>
 <!DOCTYPE html>
-<html >
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Hello | Lahiru</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <style type="text/css">
-            a[x-apple-data-detectors] {color: inherit !important;}
-        </style>
-    </head>
-    <body style="margin: 0; padding: 0;font-family: Poppins !important;">
-        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-            <tr>
-                <td style="padding: 20px 0 30px 0;">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Message Received | Lahiru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        a[x-apple-data-detectors] { color: inherit !important; }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: 'Poppins', Arial, sans-serif;">
 
-                    <table align="center" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; border: 1px solid #cccccc;">
-                        <tr>
-                            <!-- Header -->
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td style="padding: 40px 0;">
+
+            <!-- Outer wrapper -->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                   style="border-collapse: collapse; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.10);">
+
+                <!-- Header -->
+                <tr>
+                    <td bgcolor="#111111" style="padding: 36px 40px 28px 40px; text-align: center;">
+                        <a href="https://hellolahiru.up.railway.app" style="display: inline-block;">
+                            <img src="https://hellolahiru.up.railway.app/assets/images/logo/logo_full_dark.png"
+                                 alt="hellolahiru" width="140" style="display: block; margin: 0 auto;" />
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- Orange accent bar -->
+                <tr>
+                    <td bgcolor="#F68338" style="height: 4px; font-size: 0; line-height: 0;">&nbsp;</td>
+                </tr>
+
+                <!-- Hero message -->
+                <tr>
+                    <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:ghostwhite;border-radius:8px;width:100% !important;color: white; font-size: 14px;line-height: 26px;border-collapse: collapse;">
                             <tr>
-                                <td bgcolor="#111111" style="padding: 36px 40px 28px 40px; text-align: center;">
-                                    <a href="https://hellolahiru.up.railway.app" style="display: inline-block;">
-                                        <img src="https://hellolahiru.up.railway.app/assets/images/logo/logo_full_dark.png"
-                                             alt="hellolahiru" width="140" style="display: block; margin: 0 auto;" />
-                                    </a>
+                                <td style="padding-left: 10px !important;color: #153643;">
+                                    <h1 style="font-size: 20px; margin: 0;">Contact details</h1>
+                                </td><br><br>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        Sender name
+                                    </p>
+                                </td>
+                                <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        - {{ $data->name }}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        Sender email
+                                    </p>
+                                </td>
+                                <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        - {{ $data->email }}
+                                    </p>
                                 </td>
                             </tr>
 
-                            <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:ghostwhite;border-radius:8px;width:100% !important;color: white; font-size: 14px;line-height: 26px;border-collapse: collapse;">
-                                    <tr>
-                                        <td style="padding-left: 10px !important;color: #153643;">
-                                            <h1 style="font-size: 20px; margin: 0;">Contact details</h1>
-                                        </td><br><br>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                Sender name
-                                            </p>
-                                        </td>
-                                        <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                - {{ $data->name }}
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                Sender email
-                                            </p>
-                                        </td>
-                                        <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                - {{ $data->email }}
-                                            </p>
-                                        </td>
-                                    </tr>
+                            <tr>
+                                <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        Subject
+                                    </p>
+                                </td>
+                                <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        - {{ $data->subject }}
+                                    </p>
+                                </td>
+                            </tr>
 
-                                    <tr>
-                                        <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                Subject
-                                            </p>
-                                        </td>
-                                        <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                - {{ $data->subject }}
-                                            </p>
-                                        </td>
-                                    </tr>
+                            <tr>
+                                <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        Sender mobile/telephone
+                                    </p>
+                                </td>
+                                <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
+                                    <p style="margin: 0;">
+                                        - {{ $data->phone }}
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
 
-                                    <tr>
-                                        <td style="padding-left: 10px !important;color: #153643; font-size: 16px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                Sender mobile/telephone
-                                            </p>
-                                        </td>
-                                        <td style="padding-right: 10px !important;padding-left: 10px !important;color: #153643; font-size: 14px; line-height: 26px; ">
-                                            <p style="margin: 0;">
-                                                - {{ $data->phone }}
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
+                <!-- Divider -->
+                <tr>
+                    <td bgcolor="#ffffff" style="padding: 0 40px;">
+                        <div style="border-top: 1px solid #eeeeee;"></div>
+                    </td>
+                </tr>
 
-                        <td bgcolor="#ffffff" style="padding: 40px 40px 40px 40px;">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:ghostwhite;padding:40px 40px 40px 40px;border-radius:8px;width:100% !important;color: #153643; font-size: 14px;line-height: 26px;border-collapse: collapse;text-align: justify!important;" >
-                                <tr>
-                                    <td style="padding-top:10px !important;padding-left: 10px !important;color: #153643; font-size: 18px; line-height: 26px;">
-                                        <h1 style="font-size: 20px; margin: 0;">User message</h1>
-                                    </td>
-                                </tr><br>
-                                <tr>
-                                    <td style="padding-left: 10px !important;padding-right: 10px !important;">
-                                        <p style="margin: 0;">
-                                            {{ $data->message }}
-                                        </p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
+                <!-- Summary of what they sent -->
+                <tr>
+                    <td bgcolor="#ffffff" style="padding: 32px 40px 40px 40px;">
+                        <p style="margin: 0 0 20px 0; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #999999; font-weight: 600;">
+                            Your Message Summary
+                        </p>
 
-                        <!-- Footer -->
-                        <tr>
-                            <td bgcolor="#111111" style="padding: 28px 40px; text-align: center;">
-                                <p style="margin: 0; font-size: 12px; color: #555555;">
-                                    &copy; {{ date('Y') }} hellolahiru &nbsp;&middot;&nbsp;
-                                    <a href="mailto:gunawardhanalahiru21@gmail.com" style="color: #F68338; text-decoration: none;">
-                                        gunawardhanalahiru21@gmail.com
-                                    </a>
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </body>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                               style="background-color: #f9f9f9; border-radius: 8px; border-collapse: collapse;">
+                            <tr>
+                                <td style="padding: 14px 20px; border-bottom: 1px solid #eeeeee;">
+                                    <span style="font-size: 12px; color: #999; display: block; margin-bottom: 2px;">SUBJECT</span>
+                                    <span style="font-size: 15px; color: #111111; font-weight: 600;">{{ $data->subject }}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 14px 20px; border-bottom: 1px solid #eeeeee;">
+                                    <span style="font-size: 12px; color: #999; display: block; margin-bottom: 2px;">YOUR EMAIL</span>
+                                    <span style="font-size: 15px; color: #111111;">{{ $data->email }}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 14px 20px;">
+                                    <span style="font-size: 12px; color: #999; display: block; margin-bottom: 6px;">YOUR MESSAGE</span>
+                                    <span style="font-size: 14px; color: #444444; line-height: 1.7; display: block;">{{ $data->message }}</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- CTA -->
+                <tr>
+                    <td bgcolor="#ffffff" style="padding: 0 40px 44px 40px; text-align: center;">
+                        <a href="https://hellolahiru.up.railway.app"
+                           style="display: inline-block; background-color: #F68338; color: #ffffff;
+                                      font-size: 14px; font-weight: 600; text-decoration: none;
+                                      padding: 14px 36px; border-radius: 6px; letter-spacing: 0.5px;">
+                            Visit My Portfolio
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr>
+                    <td bgcolor="#111111" style="padding: 28px 40px; text-align: center;">
+                        <p style="margin: 0; font-size: 12px; color: #555555;">
+                            &copy; {{ date('Y') }} hellolahiru &nbsp;&middot;&nbsp;
+                            <a href="mailto:gunawardhanalahiru21@gmail.com" style="color: #F68338; text-decoration: none;">
+                                gunawardhanalahiru21@gmail.com
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+
+            </table>
+            <!-- End outer wrapper -->
+
+        </td>
+    </tr>
+</table>
+
+</body>
 </html>
