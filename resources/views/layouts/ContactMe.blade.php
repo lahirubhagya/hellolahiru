@@ -224,7 +224,7 @@
                                                             <div class="row">
                                                                 <div class="col-sm-6 col-md-4 col-lg-4">
                                                                     <button type="submit" id="submit" class="btn block color-bg fl-btn">
-                                                                        <i class="fal fa-send"></i>&nbsp;&nbsp;Drop a Message
+                                                                        <i class="fal fa-send" ></i><span style="margin-left: 10px !important">Drop a Message</span>
                                                                     </button>
                                                                 </div>
                                                                 <div class="col-sm-6 col-md-4 col-lg-4">

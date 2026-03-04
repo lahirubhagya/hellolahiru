@@ -4006,14 +4006,11 @@ section {
 	color:#000;
 }
 .btnsuccessMsg{
-    background-color: transparent !important;
+    background-color: forestgreen !important;
     border: 1px solid #dddddd !important;
-    border-right: none !important;
-
-    border-left: none !important;
-    color: #F68338;
+    color: #FFFFFF;
     text-transform: initial;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     padding: 16px;
     text-align: left;
